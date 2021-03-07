@@ -11,11 +11,9 @@ const App = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
+        // mb need more cleverly
         const dealers = target.dataset.dealers;
         if(dealers) {
-            // mb need more cleverly
-            const str = dealers.split(' ');
-            console.log("str", str)
             dispatch({type: LOAD_DEALERS, payload: dealers})
         }
     }, [dispatch])

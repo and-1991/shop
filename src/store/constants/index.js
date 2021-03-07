@@ -1,0 +1,4 @@
+export const LOAD_PRODUCT_LIST = "LOAD_DATA";
+export const SELECT_PRODUCT = "SELECT_PRODUCT";
+export const REMOVE_PRODUCT = "REMOVE_PRODUCT";
+export const LOAD_DEALERS = "LOAD_DEALERS";
